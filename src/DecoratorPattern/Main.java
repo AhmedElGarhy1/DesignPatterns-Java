@@ -1,3 +1,5 @@
+package DecoratorPattern;
+
 import DecoratorPattern.Component.CoffeeCup;
 import DecoratorPattern.Component.Decorators.AddCaramelDecorator;
 import DecoratorPattern.Component.Decorators.AddChocolateDecorator;
