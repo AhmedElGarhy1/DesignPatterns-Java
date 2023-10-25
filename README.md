@@ -6,3 +6,4 @@ The completed design patterns code for now:
 
 1. [Strategy Design Pattern](https://github.com/AhmedElGarhy1/DesignPatterns-Java/tree/master/src/StrategyPattern)
 2. [Observer Design Pattern](https://github.com/AhmedElGarhy1/DesignPatterns-Java/tree/master/src/ObserverPattern)
+3. [Factory Method Design Pattern](https://github.com/AhmedElGarhy1/DesignPatterns-Java/tree/master/src/FactoryMethodPattern)

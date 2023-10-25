@@ -1,3 +1,5 @@
+package FactoryMethodPattern;
+
 import FactoryMethodPattern.Creator.ICreator;
 import FactoryMethodPattern.Creator.RandomConcreteCreator;
 import FactoryMethodPattern.Product.IProduct;
