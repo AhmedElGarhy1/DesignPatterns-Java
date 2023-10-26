@@ -1,12 +1,13 @@
-import FactoryMethodPattern.Creator.ICreator;
-import FactoryMethodPattern.Creator.RandomConcreteCreator;
-import FactoryMethodPattern.Product.IProduct;
+import SingeltonPattern.Database;
 
 public class Main {
     public static void main(String[] args){
-        ICreator creator = new RandomConcreteCreator();
-//        ICreator creator = new LuckyConcreteCreator();
-        IProduct product = creator.create();
-        product.doSomething();
+        Database database1 = Database.getInstance();
+        System.out.println(database1.howManyInstance());
+        System.out.println(database1.query("SELECT * FROM users;"));
+
+        Database database2 = Database.getInstance();
+        System.out.println(database2.howManyInstance());
+        System.out.println(database2.query("SELECT * FROM students;"));
     }
 }
