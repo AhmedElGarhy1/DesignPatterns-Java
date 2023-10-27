@@ -19,5 +19,6 @@ public class Main {
         sofaProduct.Sofa();
         chairProduct.chair();
         coffeeTableProduct.CoffeeTable();
+
     }
 }

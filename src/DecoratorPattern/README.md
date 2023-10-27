@@ -29,4 +29,4 @@ when we want to add any extra flavor we can use the decorator like following
     Cup espressoWithLotus = new AddLotusDecorator(new EspressoCup); 
 ```
 
-**#Observer Pattern**
+**#Decorator Pattern**
