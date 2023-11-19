@@ -1,0 +1,11 @@
+{
+  "name": "bridgepattern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "author": "",
+  "license": "ISC"
+}
